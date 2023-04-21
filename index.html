@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Email Template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">
+        /* Styling for circular image */
+        .circle {
+            width: 320px;
+            height: 320px;
+            border-radius: 50%;
+            background-color: orange;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            margin: 0 auto;
+        }
+        
+        /* Styling for image inside circular container */
+		.circle img {
+			max-width: 150%;
+			max-height: 150%; 
+            object-fit: cover;
+		}
+        
+        /* Styling for body */
+        body {
+         background-color: #460e0e;
+        }
+        
+        /* Media query for small screen size */
+		@media only screen and (max-width: 600px) {
+			body {
+				padding: 0 !important;
+			}
+			h1 {
+				font-size: 24px !important;
+			}
+			p {
+				font-size: 16px !important;
+			}
+			.container {
+				width: 100% !important;
+				padding: 0 !important;
+			}
+			.btn {
+				padding: 10px 20px !important;
+			}
+		}
+	</style>
+</head>
+<body style="margin: 0; padding: 0;">
+    
+    <!-- Email template table -->
+	<table cellpadding="0" cellspacing="0" width="100%">
+        
+        <!-- Header section -->
+		<tr>
+			<td bgcolor="#ffffff" align="center">
+				<table border="0" cellpadding="0" cellspacing="0" width="600" class="container">
+					<tr>
+						<td bgcolor="#333333" style="padding: 20px 0; text-align: center;">
+                            <!-- Header text -->
+                            <h1 style="font-size: 36px; color: #ffffff;">Pentalog and tripAdvisor</h1>
+                        </td>
+					</tr>
+                    
+                    <!-- Image and button section -->
+					<tr style="padding: 20px; background-color: #072cc1; align-content: center;">
+						<td style="padding: 20px;">
+                            <!-- Circular image container -->
+                            <div class="circle">
+                                <img src="imge.jpg" alt="Placeholder Image">
+                            </div>
+                            <!-- Button to read more -->
+                            <button style="background-color: #fb870a; color: #ffffff; display: inline-block; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Read More</button>
+                        </td>
+                    </tr>
+                    
+                    <!-- Body section -->
+                    <tr>
+                     <td bgcolor="#f8f8f8" style="padding: 20px 0;">
+                      <!-- Body text -->
+                      <p style="font-size: 18px; color: #333333;">Thank you for reading our email template. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at diam vel velit malesuada laoreet. Praesent bibendum augue id ultricies tincidunt. Vestibulum vitae nisl in augue ullamcorper pulvinar eu vel nisl.</p>
+                      </td>
+                    </tr>
+                    
+                    <!-- Footer section -->
+                    <tr>
+                       <td bgcolor="#333333" style="padding: 20px 0;">
+                           <!-- Footer text -->
+                   <p style="font-size: 14px; color: #ffffff; text-align: center;">This email template is a sample created for educational purposes only. © 2023</p>
+                      </td>
+                           </tr>
+                         </table>
+                        </td>
+                    </tr>
+             </table>
+                                        
+        </body>
+</html>
